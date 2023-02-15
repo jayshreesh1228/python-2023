@@ -1,0 +1,10 @@
+a=int(input("enter a number betweeen 0 to 999 :"))
+if a<0 or a>999:
+    print("invalid number .")
+else :
+    if a<10:
+        print(a,"is a single digit number")
+    elif a<100:
+        print (a,"is a double digit number")
+    else :
+        print(a,"is a triple digit number")
