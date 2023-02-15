@@ -1,0 +1,5 @@
+a=int(input("enter the number of rows of pattern"))
+i=0
+for i in range(0,a):
+  print ("*"*i)
+  i+=1
