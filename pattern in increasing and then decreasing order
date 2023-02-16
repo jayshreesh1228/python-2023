@@ -1,0 +1,10 @@
+a=int(input("enter the number of rows of pattern"))
+i=1
+while i<=a:
+  print ("*"*i)
+  i+=1
+else :
+    i=a
+    while i<=a:
+       print ("*"*i)
+       i-=1 
