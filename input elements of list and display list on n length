@@ -1,0 +1,8 @@
+n=int (input("enter th no. of elements to be added ; "))
+list=[]
+for i in range (0,n):
+   element= int(input("enter the element : "))
+   list.append(element)
+   i+=1
+   
+print(list)
