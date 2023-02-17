@@ -1,0 +1,6 @@
+j=int(input("enter the no. or rows : "))
+n=1
+i=j
+for i in range (j,0,-1):
+    print(" "*i,"*"*n)
+    n+=2
