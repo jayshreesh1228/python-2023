@@ -1,0 +1,10 @@
+n=int(input("enter the number upto which tables should be printed : "))
+m=n+1
+for i in range(1,m):
+    for j in range(1,11):
+        prod=int(i*j)
+        if prod<10:
+            print(prod,end=" ")
+        else:
+            print(" ",prod,end=" ")
+    print()
