@@ -1,0 +1,15 @@
+s=int(input("enter the number of subjects : "))
+total=0 
+obt=0 
+for i in range (0,s):
+    t=int(input("enter total marks  : "))
+    m=int(input("enter obtained marks : "))
+    total=total+t
+    obt=obt+m
+p=(obt/total)*100
+if p<=33.0:
+    print("You have failed  ")
+    print("your percentage is :",p)
+else:
+    print("You are pass  ")
+    print("your percentage is :",p)
