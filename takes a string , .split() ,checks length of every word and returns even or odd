@@ -1,0 +1,10 @@
+n=input("enter a sentence : ")
+l=(n.split(" "))
+k=0
+for word in l:
+    m=len(l[k])
+    k+=1
+    if m%2==0:
+        print("even")
+    else:
+        print("odd")
