@@ -1,0 +1,19 @@
+def check(mylist):
+    even=[]
+    for num in mylist:
+        if num%2==0:
+            even.append(num)
+        else:
+            pass
+    return even
+        
+n=int(input("enter a number of elements in list: "))
+mylist=[]
+for i in range (0,n):
+    m=int(input(f'enter the {i} number : '))
+    mylist.append(m)
+    
+print(mylist)
+result=check(mylist)
+print ("the list of even numbers in the passed list is :")
+print(result)
