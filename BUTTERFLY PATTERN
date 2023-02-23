@@ -1,0 +1,14 @@
+n=int(input("enter the number of rows : "))
+j=1
+while 0<n :
+    print("*"*j,end="")
+    print(" "*n,end=" ")
+    print("*"*j,end="\n ")
+    n-=2
+    j+=1
+while j>=0:
+    print("*"*j,end="")
+    print(" "*n,end=" ")
+    print("*"*j,end="\n ")
+    n+=2
+    j-=1
