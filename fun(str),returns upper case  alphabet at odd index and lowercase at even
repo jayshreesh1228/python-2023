@@ -1,0 +1,12 @@
+def myfunc(mystr):
+  for i,v in enumerate(mystr):
+    if i%2==0:
+     u=v.upper()
+     print(u)
+    else :
+     l=v.lower()
+     print(l)
+  return()
+
+str=input("enter a string : ")
+myfunc(str) 
