@@ -1,0 +1,8 @@
+def myfuns(text):
+  mylist=text.split(" ")
+  rev=mylist[::-1]
+  return " ".join(rev)
+
+str=input("enter a string : ")
+answer=myfuns(str)
+print(answer)
